@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="back">Назад</string>
+    <string name="cancel">Отмена</string>
+    <string name="save">Сохранить</string>
+    <string name="next">Дальше</string>
+    <string name="done">Готово</string>
+    <string name="close">Закрыть</string>
+    <string name="share">Поделиться</string>
+    <string name="edit">Изменить</string>
+    <string name="delete">Удалить</string>
+
+    <string name="tab_casa">Дом</string>
+    <string name="tab_ofrenda">Офренда</string>
+    <string name="tab_fiesta">Фиеста</string>
+    <plurals name="petals_plus">
+        <item quantity="one">+%d лепесток</item>
+        <item quantity="few">+%d лепестка</item>
+        <item quantity="many">+%d лепестков</item>
+        <item quantity="other">+%d лепестка</item>
+    </plurals>
+
+    <!-- Home -->
+    <string name="casa_hello">¡Hola, %s!</string>
+    <string name="casa_hello_anon">¡Hola!</string>
+    <plurals name="casa_age">
+        <item quantity="one">%d год фиесты</item>
+        <item quantity="few">%d года фиесты</item>
+        <item quantity="many">%d лет фиесты</item>
+        <item quantity="other">%d года фиесты</item>
+    </plurals>
+    <string name="casa_tap">Коснись калаки, и она станцует</string>
+    <string name="catrina_came">Заходила Катрина</string>
+    <string name="catrina_errand">Её поручение на сегодня</string>
+    <string name="errand_do">Сделано</string>
+    <string name="errand_done">На сегодня всё. Катрина довольна.</string>
+    <plurals name="fiesta_in">
+        <item quantity="one">До Дня мёртвых %d день</item>
+        <item quantity="few">До Дня мёртвых %d дня</item>
+        <item quantity="many">До Дня мёртвых %d дней</item>
+        <item quantity="other">До Дня мёртвых %d дня</item>
+    </plurals>
+    <string name="fiesta_now">¡Día de Muertos! Души возвращаются домой. Зажги свечу на своей офренде.</string>
+    <string name="garland_empty">Гирлянда пустая. Вырежи папель пикадо во вкладке «Фиеста».</string>
+    <string name="wardrobe">Гардероб</string>
+    <string name="today_card">Карта лотереи на сегодня</string>
+    <string name="today_card_draw">Вытянуть карту</string>
+    <string name="gift_title">¡Feliz cumpleaños!</string>
+    <string name="gift_text">Ещё один год фиесты. Катрина принесла привилегию лет: %s, и 10 лепестков.</string>
+    <string name="gift_text_petals">Ещё один год фиесты. Катрина принесла 10 лепестков.</string>
+    <string name="gift_wear">Надеть</string>
+
+    <!-- Wardrobe -->
+    <string name="wardrobe_title">Гардероб</string>
+    <string name="slot_hat">Шляпа</string>
+    <string name="slot_paint">Роспись</string>
+    <string name="slot_clothes">Одежда</string>
+    <string name="slot_hand">В руке</string>
+    <string name="slot_extra">Детали</string>
+    <string name="paint_color">Цвет росписи</string>
+    <string name="item_wearing">Надето</string>
+    <string name="item_wear">Надеть</string>
+    <string name="item_buy">Купить · %d</string>
+    <string name="item_poor">Пока не хватает лепестков</string>
+    <string name="item_elder">Привилегия лет: Катрина приносит это на дни рождения</string>
+    <string name="wardrobe_hint">Лепестки дают практики: поручения Катрины, свечи, карты, стихи и флажки.</string>
+
+    <string name="item_none_hat">Без шляпы</string>
+    <string name="item_flowers">Венок</string>
+    <string name="item_sombrero">Сомбреро</string>
+    <string name="item_tophat">Цилиндр</string>
+    <string name="item_catrina">Шляпа Катрины</string>
+    <string name="item_petals">Лепестки</string>
+    <string name="item_hearts">Сердечки</string>
+    <string name="item_spirals">Спирали</string>
+    <string name="item_stars">Звёзды</string>
+    <string name="item_lace">Кружево</string>
+    <string name="item_bare">Одни кости</string>
+    <string name="item_poncho">Сарапе</string>
+    <string name="item_guayabera">Гуаябера</string>
+    <string name="item_charro">Костюм чарро</string>
+    <string name="item_vestido">Праздничное платье</string>
+    <string name="item_none_hand">Пустые руки</string>
+    <string name="item_bouquet">Ноготки</string>
+    <string name="item_maracas">Маракасы</string>
+    <string name="item_guitar">Гитара</string>
+    <string name="item_cane">Трость</string>
+    <string name="item_none">Ничего</string>
+    <string name="item_collar">Гирлянда из ноготков</string>
+    <string name="item_mustache">Усы</string>
+    <string name="item_glasses">Очки</string>
+    <string name="item_rebozo">Шаль-ребосо</string>
+    <string name="item_goldtooth">Золотой зуб</string>
+
+    <!-- Ofrenda -->
+    <string name="ofrenda_title">Офренда</string>
+    <string name="ofrenda_sub">Алтарь для тех, кого уже нет. Говорят, в ночи на 1 и 2 ноября они приходят домой в гости.</string>
+    <string name="ofrenda_add">Добавить</string>
+    <string name="ofrenda_empty">Алтарь ждёт</string>
+    <string name="ofrenda_empty_text">Поставь фото того, по кому скучаешь: бабушки, друга, питомца. Положи то, что они любили, зажги свечу, расскажи воспоминание. Горе превращается в визит.</string>
+    <string name="ofrenda_fiesta">Сегодня души дома. Зажги свечу для каждого.</string>
+    <plurals name="candles_lit">
+        <item quantity="one">Сегодня горит %d свеча</item>
+        <item quantity="few">Сегодня горят %d свечи</item>
+        <item quantity="many">Сегодня горят %d свечей</item>
+        <item quantity="other">Сегодня горят %d свечи</item>
+    </plurals>
+
+    <string name="soul_candle">Зажечь свечу</string>
+    <string name="soul_candle_lit">Сегодня для них горит свеча</string>
+    <string name="soul_offerings">На алтаре</string>
+    <string name="soul_offerings_none">Пока ничего. Нажми «Изменить» и выбери, что они любили.</string>
+    <string name="soul_memories">Воспоминания</string>
+    <string name="soul_memory_hint">Расскажи что-нибудь о них…</string>
+    <string name="soul_memory_add">Сохранить воспоминание</string>
+    <string name="soul_memories_none">Воспоминаний пока нет. Мелочи важнее всего: запах, словечко, привычка.</string>
+    <string name="soul_delete">Убрать с алтаря</string>
+    <string name="soul_delete_text">Фото, подношения и воспоминания будут удалены из Calavera.</string>
+    <string name="soul_delete_do">Убрать</string>
+    <string name="memory_delete">Удалить это воспоминание?</string>
+
+    <string name="soul_new">Кто-то на алтарь</string>
+    <string name="soul_edit">Изменить</string>
+    <string name="soul_name">Имя</string>
+    <string name="soul_name_hint">Бабушка Нина</string>
+    <string name="soul_relation">Кем приходится</string>
+    <string name="soul_relation_hint">моя бабушка</string>
+    <string name="soul_born">Родились</string>
+    <string name="soul_died">Ушли</string>
+    <string name="soul_year_hint">1931</string>
+    <string name="soul_pet">Питомец</string>
+    <string name="soul_photo">Выбрать фото</string>
+    <string name="soul_photo_change">Заменить фото</string>
+    <string name="soul_photo_remove">Убрать фото</string>
+    <string name="soul_loved">Что они любили?</string>
+
+    <string name="off_bread">Пан де муэрто</string>
+    <string name="off_coffee">Кофе</string>
+    <string name="off_fruit">Фрукты</string>
+    <string name="off_sugar_skull">Сахарный череп</string>
+    <string name="off_chocolate">Шоколад</string>
+    <string name="off_tequila">Рюмочка</string>
+    <string name="off_book">Книги</string>
+    <string name="off_music">Музыка</string>
+    <string name="off_cigar">Сигара</string>
+    <string name="off_toy">Игрушки</string>
+    <string name="off_sweets">Сладости</string>
+    <string name="off_water">Вода</string>
+
+    <!-- Fiesta -->
+    <string name="fiesta_title">Фиеста</string>
+    <string name="fiesta_sub">Способы подружиться с концом. Каждый на несколько минут.</string>
+    <string name="p_loteria">Лотерея страхов</string>
+    <string name="p_loteria_desc">Карта в день. Страх, рассмотренный вблизи, уменьшается.</string>
+    <string name="p_calaverita">Калаверитас</string>
+    <string name="p_calaverita_desc">Весёлый стишок о собственной смерти. Настоящая мексиканская традиция.</string>
+    <string name="p_picado">Папель пикадо</string>
+    <string name="p_picado_desc">Сложи, вырежи, разверни. Неделю он трепещет, потом его уносит ветер.</string>
+    <string name="p_camino">Дорога ноготков</string>
+    <string name="p_camino_desc">Кто и что сохранит твой след.</string>
+    <string name="p_check">Термометр страха</string>
+    <string name="p_check_desc">Раз в месяц: насколько горячо внутри?</string>
+    <string name="p_plan">Моя последняя фиеста</string>
+    <string name="p_plan_desc">Спланируй проводы как праздник. А потом иди жить.</string>
+    <string name="p_pan">Пан де муэрто</string>
+    <string name="p_pan_desc">Вопросы для застолья о жизни и смерти, с теми, кого любишь.</string>
+    <string name="p_viejos">Фиеста старших</string>
+    <string name="p_viejos_desc">Люди, сделавшие главное в поздние годы. Возраст как апгрейд.</string>
+    <string name="p_due">пора</string>
+
+    <!-- Lotería -->
+    <string name="lot_title">Лотерея страхов</string>
+    <string name="lot_intro">В мексиканскую лотерею играют картами с картинками: Петух, Смерть, Храбрец. В этой колоде страхи, которые есть у людей перед смертью и старостью. Одна карта в день. Переверни её и посмотри страху в глаза.</string>
+    <string name="lot_draw">Вытянуть карту дня</string>
+    <string name="lot_tap">Коснись карты, чтобы перевернуть</string>
+    <string name="lot_says">Катрина говорит</string>
+    <string name="lot_try">Попробуй</string>
+    <string name="lot_did">Попробовано</string>
+    <string name="lot_did_done">Есть. Так страх и становится меньше.</string>
+    <string name="lot_tomorrow">Следующая карта завтра.</string>
+    <string name="lot_deck">Твоя колода</string>
+    <string name="lot_count">%1$d из %2$d карт</string>
+    <string name="lot_back">Lotería\ndel miedo</string>
+
+    <!-- Calaveritas -->
+    <string name="cal_title">Калаверитас</string>
+    <string name="cal_intro">Калаверита — короткий смешной стишок, в котором Катрина приходит за кем-нибудь. В Мексике каждый ноябрь их пишут про друзей, учителей и президентов. Напиши про себя: смех над концом отнимает у него часть силы.</string>
+    <string name="cal_new">Написать калавериту</string>
+    <string name="cal_empty">Стихов пока нет. Если первая строчка не идёт, начни с примера Катрины.</string>
+    <string name="cal_hint">Смерть пришла за мной однажды…</string>
+    <string name="cal_examples">Начать с примера</string>
+    <string name="cal_edit_title">Твоя калаверита</string>
+    <string name="cal_delete">Удалить этот стих?</string>
+    <string name="cal_card_by">калаверита · %s</string>
+    <string name="cal_card_anon">калаверита</string>
+    <string name="cal_tips">Рифма — хорошо, но смешно — лучше. Кто за тобой пришёл, чем ты занят и как выкручиваешься?</string>
+
+    <!-- Papel picado -->
+    <string name="pic_title">Папель пикадо</string>
+    <string name="pic_folded">Бумага сложена. Веди пальцем, чтобы резать.</string>
+    <string name="pic_half">Пополам</string>
+    <string name="pic_quarter">Вчетверо</string>
+    <string name="pic_color">Бумага</string>
+    <string name="pic_unfold">Развернуть</string>
+    <string name="pic_refold">Сложить снова</string>
+    <string name="pic_clear">Заново</string>
+    <string name="pic_undo">Отменить</string>
+    <string name="pic_hang">Повесить на гирлянду</string>
+    <string name="pic_hung">Висит. Неделю будет трепетать, а потом его унесёт ветер, как и всё.</string>
+    <string name="pic_count">Вырезано: %1$d · на гирлянде: %2$d</string>
+    <string name="pic_why">Папель пикадо висит над каждой фиестой и каждым алтарём. Он задуман, чтобы рваться и выцветать: красив, потому что недолговечен.</string>
+
+    <!-- Marigold road -->
+    <string name="cam_title">Дорога ноготков</string>
+    <string name="cam_intro">Психиатр Ирвин Ялом называл это «рябью»: мы продолжаемся в тех, кого коснулись, часто сами того не зная. Лепестки ноготков освещают душам дорогу домой. Каждый цветок здесь — кто-то или что-то, где останется твой след.</string>
+    <string name="cam_who">Кто или что</string>
+    <string name="cam_who_hint">Племянница Соня</string>
+    <string name="cam_what">Чем ты коснулся этого</string>
+    <string name="cam_what_hint">научил(а) кататься на велосипеде</string>
+    <string name="cam_add">Посадить ноготок</string>
+    <string name="cam_empty">Ноготков пока нет. Думай о малом: рецепт, который ты передал(а) дальше, дерево, которое посадил(а), друг, которого отговорил(а) от глупости.</string>
+    <string name="cam_delete">Выкопать этот ноготок?</string>
+    <plurals name="cam_count">
+        <item quantity="one">%d ноготок на твоей дороге</item>
+        <item quantity="few">%d ноготка на твоей дороге</item>
+        <item quantity="many">%d ноготков на твоей дороге</item>
+        <item quantity="other">%d ноготка на твоей дороге</item>
+    </plurals>
+
+    <!-- Fear thermometer -->
+    <string name="chk_title">Термометр страха</string>
+    <string name="chk_intro">Восемь утверждений. Отметь, насколько каждое верно для тебя сейчас. Раз в месяц достаточно: смысл в том, чтобы видеть, как линия идёт вниз.</string>
+    <string name="chk_save">Измерить</string>
+    <string name="chk_result">%d°</string>
+    <string name="chk_cool">Прохладно. Смерть — факт, на который ты можешь смотреть не вздрагивая. Заглядывай дальше.</string>
+    <string name="chk_warm">Тепло. Страх есть, но он не хозяин в доме. Сейчас лучше всего работают карты лотереи.</string>
+    <string name="chk_hot">Горячо. Страх громкий. Действуй бережно: карта в день, свеча, стишок. И поговори с кем-нибудь, если это давит на твои дни.</string>
+    <string name="chk_history">Твои измерения</string>
+    <plurals name="chk_next">
+        <item quantity="one">Следующее измерение через %d день</item>
+        <item quantity="few">Следующее измерение через %d дня</item>
+        <item quantity="many">Следующее измерение через %d дней</item>
+        <item quantity="other">Следующее измерение через %d дня</item>
+    </plurals>
+    <string name="chk_again">Измерить снова</string>
+    <string name="chk_change">%+d° с первого измерения</string>
+
+    <string-array name="chk_statements">
+        <item>Мысли о смерти вызывают у меня тревогу.</item>
+        <item>Я избегаю похорон, больниц и разговоров об умирании.</item>
+        <item>Старение меня пугает.</item>
+        <item>Я боюсь не успеть главное.</item>
+        <item>Меня беспокоит мысль, что меня забудут.</item>
+        <item>Я боюсь однажды зависеть от других.</item>
+        <item>Мне тяжело думать о том, что я потеряю близких.</item>
+        <item>Признаки старения в зеркале вызывают у меня беспокойство.</item>
+    </string-array>
+    <string-array name="chk_scale">
+        <item>Совсем нет</item>
+        <item>Немного</item>
+        <item>Отчасти</item>
+        <item>Скорее да</item>
+        <item>Очень верно</item>
+    </string-array>
+
+    <!-- Last fiesta -->
+    <string name="plan_title">Моя последняя фиеста</string>
+    <string name="plan_intro">Звучит странно, но помогает: когда практические вещи записаны, ум перестаёт кружить вокруг них. Спланируй проводы так, как спланировал(а) бы вечеринку. Это видишь только ты, пока сам(а) не поделишься.</string>
+    <string name="plan_share">Поделиться текстом</string>
+    <string name="plan_saved">Сохранено</string>
+    <string name="plan_papers_warn">Пиши, где что лежит, но никогда не сами пароли.</string>
+    <string name="plan_share_title">Моя последняя фиеста</string>
+    <string-array name="plan_titles">
+        <item>Музыка</item>
+        <item>Еда и напитки</item>
+        <item>Где</item>
+        <item>Кого позвать</item>
+        <item>Кто скажет речь и что сказать</item>
+        <item>Какой меня запомнить</item>
+        <item>Тело: похороны, кремация, донорство</item>
+        <item>Если я не смогу говорить сам(а)</item>
+        <item>Где мои документы</item>
+        <item>Кто позаботится о питомцах и цветах</item>
+        <item>Что я хочу, чтобы мои близкие знали</item>
+    </string-array>
+    <string-array name="plan_hints">
+        <item>Песня, с которой начать, и песня, под которую танцевать</item>
+        <item>Пироги, торт, тост с моим любимым напитком</item>
+        <item>Сад, берег моря, моя кухня</item>
+        <item>И кто может спокойно не приходить</item>
+        <item>Коротко, и чтобы все посмеялись</item>
+        <item>Что я всегда приносил(а) десерт</item>
+        <item>И куда можно развеять прах</item>
+        <item>Мои пожелания о лечении и уходе</item>
+        <item>Завещание, страховка, счета: где их найти</item>
+        <item>Имена и телефоны</item>
+        <item>Благодарности, извинения, разрешение быть счастливыми</item>
+    </string-array>
+
+    <!-- Pan de muerto -->
+    <string name="pan_title">Пан де муэрто</string>
+    <string name="pan_intro">Поставь хлеб на стол и передавай телефон по кругу. Кто держит — отвечает и передаёт дальше.</string>
+    <string name="pan_next">Следующий вопрос</string>
+    <string name="pan_count">%1$d / %2$d</string>
+    <string-array name="pan_questions">
+        <item>Какая песня должна звучать на твоей фиесте, когда тебя не станет?</item>
+        <item>Что ты хочешь, чтобы о тебе рассказывали внукам?</item>
+        <item>Что бы ты сделал(а) иначе, если бы знал(а), что осталось пять лет?</item>
+        <item>Кто научил тебя тому, чем ты пользуешься каждый день?</item>
+        <item>Какой семейный рецепт нельзя потерять ни в коем случае?</item>
+        <item>Чем ты гордишься, хотя об этом никто не знает?</item>
+        <item>Когда ты чувствовал(а) себя по-настоящему живым?</item>
+        <item>Что бы ты положил(а) на свою собственную офренду?</item>
+        <item>Как выглядит для тебя хорошая старость?</item>
+        <item>На кого из бабушек и дедушек ты больше всего похож(а) и чем?</item>
+        <item>О чём ты перестал(а) волноваться с возрастом?</item>
+        <item>Каким ты хотел(а) бы видеть свой последний обычный день?</item>
+        <item>Есть ли что-то, что ты давно хочешь сказать кому-то за этим столом?</item>
+        <item>Что, по-твоему, бывает после смерти? Менялось ли это с годами?</item>
+        <item>Что самое смешное случалось на похоронах, где ты бывал(а)?</item>
+        <item>Кого бы ты позвал(а) на ужин, если бы ушедшие могли вернуться на один вечер?</item>
+        <item>Какую мелочь ты делаешь и хочешь, чтобы кто-то продолжил?</item>
+        <item>Что пугает больше: умереть или так и не пожить по-настоящему?</item>
+        <item>Какие пять слов ты написал(а) бы на маленьком камне?</item>
+        <item>Какой лучший совет тебе давал человек старше?</item>
+        <item>Как ты хочешь, чтобы о тебе заботились, если ты тяжело заболеешь?</item>
+        <item>У какой твоей вещи самая интересная история?</item>
+        <item>Что, надеешься, никогда не изменится в этой семье?</item>
+        <item>Чему ты хочешь научиться после семидесяти?</item>
+        <item>Когда ты в последний раз плакал(а) от смеха и почему?</item>
+        <item>Если бы твоя жизнь была книгой, как называлась бы эта глава?</item>
+        <item>Что ты хотел(а) бы, чтобы тебе простили, и что хочешь простить сам(а)?</item>
+        <item>Кого из сидящих здесь ты попросил(а) бы сказать о тебе речь?</item>
+        <item>Чего ты ждёшь в этом году?</item>
+        <item>Что бы ты сказал(а) себе молодому о взрослении и старении?</item>
+    </string-array>
+
+    <!-- Elders -->
+    <string name="vie_title">Фиеста старших</string>
+    <string name="vie_intro">Старение — не медленное прощание. Для многих именно тогда началась настоящая работа.</string>
+    <string name="vie_levy">В исследовании, которое следило за людьми больше двадцати лет, Бекка Леви из Йеля обнаружила: те, кто хорошо относился к своему старению, жили в среднем на 7,5 лет дольше тех, кто его страшился. То, как ты смотришь на возраст, — часть того, как ты стареешь.</string>
+    <string name="vie_levy_title">Те самые 7,5 лет</string>
+    <string-array name="vie_names">
+        <item>Бабушка Мозес</item>
+        <item>Джузеппе Верди</item>
+        <item>Лора Инглз Уайлдер</item>
+        <item>Питер Марк Роже</item>
+        <item>Нельсон Мандела</item>
+        <item>Фауджа Сингх</item>
+        <item>Кацусика Хокусай</item>
+        <item>Фрэнк Маккорт</item>
+    </string-array>
+    <string-array name="vie_ages">
+        <item>78</item>
+        <item>79</item>
+        <item>65</item>
+        <item>73</item>
+        <item>75</item>
+        <item>89</item>
+        <item>~70</item>
+        <item>66</item>
+    </string-array>
+    <string-array name="vie_texts">
+        <item>Всерьёз взялась за живопись почти в восемьдесят, когда пальцы стали слишком непослушными для вышивки. Писала ещё двадцать лет и стала одной из самых любимых художниц Америки.</item>
+        <item>Закончил «Фальстафа», свою единственную великую комедию и одну из лучших опер, в семьдесят девять. Самое смешное написал последним.</item>
+        <item>Издала первую книгу серии «Маленький домик в прериях» в шестьдесят пять, после жизни фермерской жены. Её до сих пор читают дети по всему миру.</item>
+        <item>Выпустил свой знаменитый тезаурус в семьдесят три, после карьеры врача, и дополнял его до самой смерти в девяносто.</item>
+        <item>Стал президентом ЮАР в семьдесят пять, после двадцати семи лет в тюрьме.</item>
+        <item>Начал бегать после восьмидесяти, потеряв жену и сына, и пробежал свой первый марафон в восемьдесят девять.</item>
+        <item>Создал «Большую волну» около семидесяти лет, а в семьдесят пять написал, что всё нарисованное им до семидесяти не стоит внимания.</item>
+        <item>Тридцать лет проработал школьным учителем и выпустил первую книгу, «Прах Анджелы», в шестьдесят шесть. Она получила Пулитцеровскую премию.</item>
+    </string-array>
+
+    <!-- Onboarding -->
+    <string name="onb1_title">Memento mori,\nно с ноготками</string>
+    <string name="onb1_text">В Мексике смерть не прячут. В День мёртвых строят алтари, наряжаются скелетами, едят сахарные черепа и пишут смешные стихи о собственных похоронах. Calavera приносит этот дух в твой телефон, чтобы конец стал чуть менее страшным, а жизнь — чуть ярче.</string>
+    <string name="onb2_title">Познакомься с калакой</string>
+    <string name="onb2_text">Это ты, только без кожи. Калака покачивается, танцует от касания и стареет вместе с тобой: на каждый день рождения Катрина приносит новую привилегию лет.</string>
+    <string name="onb_name">Как Катрине тебя звать?</string>
+    <string name="onb_name_hint">Твоё имя</string>
+    <string name="onb_birth">День рождения</string>
+    <string name="onb_birth_hint">Для возраста и подарков на день рождения. Можно пропустить.</string>
+    <string name="onb_birth_pick">Выбрать дату</string>
+    <string name="onb3_title">Нарядись</string>
+    <string name="onb3_text">Для начала шляпа и роспись. Остальной гардероб покупается за лепестки ноготков, которые дают практики.</string>
+    <string name="onb_start">¡Vámonos!</string>
+    <string name="onb_care">Calavera помогает примириться со смертностью когда-нибудь потом. Если мысли о том, чтобы уйти из жизни, касаются «сейчас», пожалуйста, поговори с кем-нибудь сегодня. Ссылка на телефоны доверия есть в настройках.</string>
+    <string name="onb_elder_gift">Твои годы уже принесли тебе: %s</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Настройки</string>
+    <string name="set_you">Ты</string>
+    <string name="set_name">Имя</string>
+    <string name="set_birth">День рождения</string>
+    <string name="set_birth_none">Не указан</string>
+    <string name="set_notify_section">Уведомления</string>
+    <string name="set_notify">Визит Катрины</string>
+    <string name="set_notify_hint">Одно тихое уведомление в день с её словом. Больше ничего.</string>
+    <string name="set_notify_at">Каждый день в %s</string>
+    <string name="set_language">Язык</string>
+    <string name="lang_system">Системный</string>
+    <string name="set_backup">Резервная копия</string>
+    <string name="set_backup_hint">Всё хранится только на этом телефоне. Копия — один zip с офрендой, фотографиями, стихами и гардеробом.</string>
+    <string name="backup_export">Экспорт</string>
+    <string name="backup_export_hint">Сохранить Calavera.zip куда угодно</string>
+    <string name="backup_import">Импорт</string>
+    <string name="backup_import_hint">Заменить всё содержимым копии</string>
+    <string name="backup_import_confirm">Всё, что сейчас есть в Calavera, будет заменено копией.</string>
+    <string name="backup_import_do">Заменить</string>
+    <string name="backup_done">Копия сохранена.</string>
+    <string name="backup_failed">Не удалось сохранить копию.</string>
+    <string name="backup_restored">Копия восстановлена.</string>
+    <string name="backup_bad">Это не резервная копия Calavera.</string>
+    <string name="set_help">Нужно с кем-то поговорить?</string>
+    <string name="set_help_hint">Если тёмные мысли касаются «сейчас», а не «когда-нибудь», поговори с человеком. Бесплатные анонимные телефоны доверия есть в большинстве стран.</string>
+    <string name="help_find">Найти телефон доверия</string>
+    <string name="about">Calavera %s · часть Stillcraft · без рекламы и аккаунта</string>
+
+    <!-- Care -->
+    <string name="help_title">Мы слышим тебя</string>
+    <string name="help_text">Похоже, сейчас очень тяжело. Calavera — о том, чтобы примириться со смертью когда-нибудь, а не торопить её. Пожалуйста, поговори с кем-нибудь сегодня: с другом, врачом или на телефоне доверия. Не нужно нести это в одиночку.</string>
+    <string name="help_ok">Я в порядке</string>
+
+    <!-- Hints -->
+    <string name="tip_casa">Коснись калаки, чтобы она станцевала. За лепестки из практик можно купить ей новые наряды.</string>
+    <string name="tip_ofrenda">Добавь того, по кому скучаешь. Свеча в день составит им компанию.</string>
+    <string name="tip_fiesta">Начни с лотереи: одна карта в день, три минуты.</string>
+    <string name="tip_ok">Понятно</string>
+
+    <!-- Notices -->
+    <string name="channel_catrina">Визит Катрины</string>
+    <string name="channel_catrina_desc">Одно слово от Катрины в день</string>
+    <string name="notif_title">Заходила Катрина</string>
+    <string name="notif_fiesta">¡Día de Muertos! Зажги сегодня свечу на своей офренде.</string>
+    <string name="notif_birthday">¡Feliz cumpleaños! Катрина оставила тебе подарок.</string>
+
+    <string-array name="fear_names">
+        <item>Забвение</item>
+        <item>Небытие</item>
+        <item>Боль</item>
+        <item>Нехватка времени</item>
+        <item>Зависимость от других</item>
+        <item>Лицо в зеркале</item>
+        <item>Потеря любимых</item>
+        <item>Незаконченные дела</item>
+        <item>Умереть в одиночестве</item>
+        <item>Зря прожитая жизнь</item>
+        <item>Неизвестность</item>
+        <item>Тело, которое сдаёт</item>
+    </string-array>
+    <string-array name="fear_reflections">
+        <item>Ай, mi vida, рано или поздно забывают всех, даже фараонов. Но присмотрись: ты помнишь суп прабабушки, не помня её имени. То, кто мы есть, путешествует в том, что мы сделали, а не в имени на камне. Тебя помнят прямо сейчас, сотней мелких способов, которых ты не видишь.</item>
+        <item>Ты боишься «ничего» после. Скажи, а миллиарды лет до твоего рождения тебя беспокоили? Эпикур сказал хорошо: где есть смерть, нет меня; где есть я, нет смерти. Небытие никому не причиняет боли, потому что там некому болеть. Страшно потерять вот это, так люби его, пока оно есть.</item>
+        <item>Страх боли честный и понятный. Но медицина конца стала мудрой: паллиативная помощь существует, чтобы последние дни были спокойными. Страх боли часто хуже самой боли, потому что длится всю жизнь, а не несколько дней. Узнай о возможностях, запиши свои пожелания и положи этот страх на полку.</item>
+        <item>Времени не хватает никому, querido. Короли и нищие уходили, не закончив дел. Секрет не в том, чтобы получить больше времени, а в том, чтобы замечать то, что есть. Около четырёх тысяч недель. На сколько из них ты действительно посмотрел(а)?</item>
+        <item>Ты боишься однажды нуждаться в помощи. Но тебе помогали родиться, есть, ходить, и никто не думал о тебе хуже. Принимать заботу — часть жизненного круга, а не провал в его конце. Потренируйся уже сейчас: позволь кому-нибудь помочь тебе на этой неделе и скажи просто «gracias».</item>
+        <item>Морщины, седина, мягкий подбородок. Это лицо — карта каждого смеха и каждого прищура на солнце. Никто не смотрит на старый дуб и не думает, что он не справился с ролью саженца. И посмотри на меня: лица нет вовсе, а я самая элегантная дама на любом празднике.</item>
+        <item>Этот страх рождается из любви, поэтому он самый благородный. Ты будешь терять людей, а они — тебя. Для этого и существует офренда: любовь не заканчивается у могилы, она просто меняет адрес. Скажи важное сейчас, чтобы потом на алтарь ложились только хорошие воспоминания.</item>
+        <item>Каждый оставляет что-то недоделанным: книгу, сад, ссору. Это не провал, а доказательство того, что ты ещё жил(а). Выбери одно дело, которое правда важно, и закончи его. Остальное себе прости.</item>
+        <item>Многие боятся умереть в одиночестве. Но подумай: страх обычно не о последнем часе, а о том, чтобы чувствовать себя нелюбимым. С этим можно что-то сделать уже сегодня. Позвони кому-нибудь. Напиши письмо. В окружении близких уходят те, кто годами собирал людей, по одной маленькой доброте.</item>
+        <item>«Правильно ли я жил?» — спрашивают все в конце. Те, кто ухаживает за умирающими, слышат одни и те же сожаления: хотел бы жить своей жизнью, меньше работать, не терять друзей, позволять себе быть счастливее. Хорошая новость: ты не в конце. Ответы ещё можно поменять.</item>
+        <item>Что за дверью? Никто толком не знает: ни священники, ни учёные, ни даже я, хотя это я держу её открытой. Кто-то находит покой в вере, кто-то в мысли о возвращении к звёздам. Но из неизвестности пришли и все хорошие сюрпризы твоей жизни.</item>
+        <item>Тело — дом, взятый взаймы, и однажды хозяин вернётся за ключами. Оно скрипит, протекает, лестницы становятся круче. Но оно донесло тебя до каждого танца и каждого объятия. Благодари его, а не вини. От меня вот остались одни кости, и смотри, как они танцуют.</item>
+    </string-array>
+    <string-array name="fear_exercises">
+        <item>Запиши три вещи, которым тебя научил кто-то, кого уже нет. Заметь: они живут в тебе.</item>
+        <item>Полежи две минуты и представь ночное небо до твоего рождения. Спокойно же было? Потом открой глаза и посмотри на что-нибудь красивое.</item>
+        <item>Потрать две минуты, чтобы узнать, какую паллиативную помощь можно получить там, где ты живёшь. Знать лучше, чем воображать.</item>
+        <item>Посчитай, сколько недель ты прожил(а) (лет × 52). Потом выбери одно дело на этой неделе, которому ты будешь рад(а).</item>
+        <item>Позволь сегодня кому-нибудь помочь тебе, с чем угодно, и ответь только: «gracias».</item>
+        <item>Посмотри в зеркало минуту и найди три вещи, которые время дало, а не отняло.</item>
+        <item>Напиши сегодня одному любимому человеку, за что именно ты его любишь.</item>
+        <item>Запиши самое важное незаконченное дело. Потом — следующий крошечный шаг, и сделай его сегодня.</item>
+        <item>Позвони тому, с кем давно не говорил(а). Просто узнать, как дела.</item>
+        <item>Закончи фразу три раза: «Если бы у меня остался год, я бы…»</item>
+        <item>Вспомни случай, когда неизвестное обернулось чудесным. Запиши его одной строкой.</item>
+        <item>Перед сном поблагодари тело за что-нибудь, что оно сделало сегодня. Вслух, если хватит смелости.</item>
+    </string-array>
+
+    <string-array name="catrina_words">
+        <item>Смерть не противоположность жизни. Это рама, без которой нет картины.</item>
+        <item>Все, кем ты восхищаешься, тоже были смертны. Их это не остановило.</item>
+        <item>Memento mori — не угроза, cariño. Это напоминание съесть десерт.</item>
+        <item>Старое дерево — не неудавшееся молодое.</item>
+        <item>Ушедшие хотят от тебя двух вещей: чтобы их помнили и чтобы в твоей жизни была радость.</item>
+        <item>Каждый день ты старше, чем когда-либо, и моложе, чем когда-либо будешь.</item>
+        <item>Страх смерти — это чаще всего страх так и не пожить. Вот этим и займись.</item>
+        <item>Я прихожу за всеми. Ничего демократичнее на свете нет.</item>
+        <item>Стоики говорили: учись отпускать малое, и большое отпустить будет легче.</item>
+        <item>Морщинка — это место, где была улыбка.</item>
+        <item>Никто в свой последний день не жалел, что мало отвечал на письма.</item>
+        <item>Лепестки опадают, а цветок не переживает. Он был занят тем, что цвёл.</item>
+        <item>Да, ты умрёшь. Но не сегодня. Так что ты делаешь с сегодня?</item>
+        <item>Старость — привилегия, в которой многим отказано. Носи её, как хорошую шляпу.</item>
+        <item>Горе — это любовь, которой некуда деться. Дай ей место: свечу, историю, рецепт.</item>
+        <item>Скелет — единственный наряд, который идёт всем.</item>
+        <item>Тревога о конце крадёт середину.</item>
+        <item>Посади дерево, в тени которого не посидишь. Так старики меня и перехитряют.</item>
+        <item>Смейся надо мной, я не обижусь. Смех — это то, как люди становятся смелыми.</item>
+        <item>В Мексике говорят, что умирают трижды: когда останавливается сердце, когда хоронят и когда никто не помнит. Работай над третьим.</item>
+        <item>Не спеши. Ты никуда не опаздываешь, кроме собственной жизни.</item>
+        <item>Твои кости танцуют с тобой с самых первых шагов. Будь к ним добрее.</item>
+        <item>Лучший способ подготовиться к смерти — хорошо любить жизнь. Повезло: это и лучший способ жить.</item>
+        <item>Ничто не длится вечно, и именно поэтому всё так ценно.</item>
+        <item>Ты состоишь из атомов, рождённых в звёздах. Смерть просто возвращает заём.</item>
+        <item>Старики — не те, у кого кончилось будущее. Это те, кто собрал больше прошлого.</item>
+        <item>Скажи доброе слово сейчас. На похоронах будет поздно.</item>
+        <item>Свеча не горюет, что сгорает. Она просто светит.</item>
+        <item>Нельзя добавить дней к жизни, но можно добавить жизни к дням.</item>
+        <item>Hasta la muerte, todo es vida. Пока не пришла смерть, всё — жизнь.</item>
+    </string-array>
+    <string-array name="catrina_errands">
+        <item>Сфотографируй сегодня то, по чему будешь скучать в старости.</item>
+        <item>Съешь что-нибудь медленно и внимательно, как будто в последний раз.</item>
+        <item>Скажи человеку старше тебя, чем ты в нём восхищаешься.</item>
+        <item>Посмотри на небо целую минуту.</item>
+        <item>Спроси пожилого человека о его молодости и выслушай ответ до конца.</item>
+        <item>Сделай сегодня одно дело, за которое тебе спасибо скажешь ты в восемьдесят.</item>
+        <item>Включи музыку, которую любил(а) в шестнадцать, и станцуй одну песню.</item>
+        <item>Выбрось или отдай одну вещь, которую хранишь «на всякий случай».</item>
+        <item>Напиши кому-нибудь благодарность. Отправлять не обязательно.</item>
+        <item>Погуляй пятнадцать минут без телефона.</item>
+        <item>Заметь сегодня три вещи, которые красивы, потому что недолговечны.</item>
+        <item>Приготовь что-нибудь по семейному рецепту.</item>
+        <item>Позвони бабушке, родителю или старому другу. Просто поговорить.</item>
+        <item>Хотя бы раз скажи сегодня вслух «я не знаю» и получи от этого удовольствие.</item>
+        <item>Прости одну мелочь: чужую или свою.</item>
+        <item>Поставь цветок или свечу туда, где увидишь их вечером.</item>
+        <item>Ляг спать на пятнадцать минут раньше. Костям нужен отдых.</item>
+        <item>Расскажи историю о том, кого уже нет, тому, кто его не знал.</item>
+        <item>Посмотри в зеркало и улыбнись человеку, который там стареет.</item>
+        <item>Посмейся над чем-нибудь нарочно: над фильмом, шуткой, собой.</item>
+        <item>Десять минут ничего не делай. Потренируйся в неподвижности.</item>
+        <item>Потянись пять минут и поблагодари каждый сустав по имени.</item>
+        <item>Обними кого-нибудь на несколько секунд дольше обычного.</item>
+        <item>Запиши, чему хочешь научиться в старости.</item>
+        <item>Выйди вечером на улицу и найди самую яркую звезду.</item>
+        <item>Спроси кого-нибудь, каким он хочет остаться в памяти. Потом ответь на этот вопрос сам(а).</item>
+        <item>Напиши тому, с кем потерялась связь.</item>
+        <item>Зажги свечу и посиди с ней две минуты.</item>
+        <item>Сделай одну маленькую смелую вещь, которую откладывал(а).</item>
+        <item>Закончи день, назвав три хороших вещи, которые в нём были.</item>
+    </string-array>
+
+    <string-array name="cal_examples">
+        <item>Смерть пришла к {name} в среду,\nВидит — стол накрыт к обеду.\n«Сядь, — ей молвят, — не спеши,\nПирожка-то откуси!»\nСмерть наелась, подобрела\nИ забыла, что хотела.</item>
+        <item>Здесь лежит {name}. Всю жизнь собирались\nНавести порядок — и не собрались.\nПыль так и осталась лежать на полу.\nЗато танцевали. Поставьте свечу.</item>
+        <item>Смерть звонит: «{name}, пора!»\nА в ответ: «Давай с утра.\nУ меня сегодня баня,\nЗавтра — дача, после — няня».\nТак и бегает с косой,\nЧай пьёт с {name} за весной.</item>
+        <item>Катрина в шляпе к {name} пришла:\n«Ну как, жизнь быстро ли прошла?»\n«Быстрей, чем хочется, — в ответ, —\nНо столько было танцев, нет?\nЕщё один — и в путь пойдём,\nА скелеты вместе спляшут потом».</item>
+    </string-array>
+</resources>

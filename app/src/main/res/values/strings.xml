@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Calavera</string>
+
+    <string name="back">Back</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="next">Next</string>
+    <string name="done">Done</string>
+    <string name="close">Close</string>
+    <string name="share">Share</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+
+    <string name="tab_casa">Home</string>
+    <string name="tab_ofrenda">Ofrenda</string>
+    <string name="tab_fiesta">Fiesta</string>
+    <plurals name="petals_plus">
+        <item quantity="one">+%d petal</item>
+        <item quantity="other">+%d petals</item>
+    </plurals>
+
+    <!-- Home -->
+    <string name="casa_hello">¡Hola, %s!</string>
+    <string name="casa_hello_anon">¡Hola!</string>
+    <plurals name="casa_age">
+        <item quantity="one">%d year of fiesta</item>
+        <item quantity="other">%d years of fiesta</item>
+    </plurals>
+    <string name="casa_tap">Tap your calaca to make it dance</string>
+    <string name="catrina_came">Catrina dropped by</string>
+    <string name="catrina_errand">Her errand for today</string>
+    <string name="errand_do">Done it</string>
+    <string name="errand_done">Done for today. Catrina approves.</string>
+    <plurals name="fiesta_in">
+        <item quantity="one">Día de Muertos is tomorrow</item>
+        <item quantity="other">Día de Muertos in %d days</item>
+    </plurals>
+    <string name="fiesta_now">¡Día de Muertos! The souls are coming home. Light a candle on your ofrenda.</string>
+    <string name="garland_empty">The garland is bare. Cut a papel picado in the Fiesta tab.</string>
+    <string name="wardrobe">Wardrobe</string>
+    <string name="today_card">Today\'s lotería card</string>
+    <string name="today_card_draw">Draw a card</string>
+    <string name="gift_title">¡Feliz cumpleaños!</string>
+    <string name="gift_text">Another year of fiesta. Catrina brings a privilege of years, %s, and 10 petals.</string>
+    <string name="gift_text_petals">Another year of fiesta. Catrina brings 10 petals.</string>
+    <string name="gift_wear">Put it on</string>
+
+    <!-- Wardrobe -->
+    <string name="wardrobe_title">Wardrobe</string>
+    <string name="slot_hat">Hat</string>
+    <string name="slot_paint">Face</string>
+    <string name="slot_clothes">Clothes</string>
+    <string name="slot_hand">In hand</string>
+    <string name="slot_extra">Extras</string>
+    <string name="paint_color">Paint colour</string>
+    <string name="item_wearing">Wearing</string>
+    <string name="item_wear">Wear</string>
+    <string name="item_buy">Buy · %d</string>
+    <string name="item_poor">Not enough petals yet</string>
+    <string name="item_elder">A privilege of years: Catrina brings these on birthdays</string>
+    <string name="wardrobe_hint">Petals come from the practices: Catrina\'s errands, candles, cards, verses and flags.</string>
+
+    <string name="item_none_hat">No hat</string>
+    <string name="item_flowers">Flower crown</string>
+    <string name="item_sombrero">Sombrero</string>
+    <string name="item_tophat">Top hat</string>
+    <string name="item_catrina">Catrina\'s hat</string>
+    <string name="item_petals">Petals</string>
+    <string name="item_hearts">Hearts</string>
+    <string name="item_spirals">Spirals</string>
+    <string name="item_stars">Stars</string>
+    <string name="item_lace">Lace</string>
+    <string name="item_bare">Just bones</string>
+    <string name="item_poncho">Sarape</string>
+    <string name="item_guayabera">Guayabera</string>
+    <string name="item_charro">Charro suit</string>
+    <string name="item_vestido">Fiesta dress</string>
+    <string name="item_none_hand">Empty hands</string>
+    <string name="item_bouquet">Marigolds</string>
+    <string name="item_maracas">Maracas</string>
+    <string name="item_guitar">Guitar</string>
+    <string name="item_cane">Cane</string>
+    <string name="item_none">Nothing</string>
+    <string name="item_collar">Marigold garland</string>
+    <string name="item_mustache">Mustache</string>
+    <string name="item_glasses">Glasses</string>
+    <string name="item_rebozo">Rebozo shawl</string>
+    <string name="item_goldtooth">Gold tooth</string>
+
+    <!-- Ofrenda -->
+    <string name="ofrenda_title">Ofrenda</string>
+    <string name="ofrenda_sub">An altar for those who are no longer here. On the nights of the 1st and 2nd of November, the story goes, they come home to visit.</string>
+    <string name="ofrenda_add">Add someone</string>
+    <string name="ofrenda_empty">The altar is waiting</string>
+    <string name="ofrenda_empty_text">Put up a photo of someone you miss: a grandmother, a friend, a pet. Set out what they loved, light a candle, tell a memory. Grief turns into a visit.</string>
+    <string name="ofrenda_fiesta">The souls are home tonight. Light a candle for each of them.</string>
+    <plurals name="candles_lit">
+        <item quantity="one">%d candle burns today</item>
+        <item quantity="other">%d candles burn today</item>
+    </plurals>
+
+    <string name="soul_candle">Light a candle</string>
+    <string name="soul_candle_lit">The candle burns for them today</string>
+    <string name="soul_offerings">On the altar</string>
+    <string name="soul_offerings_none">Nothing set out yet. Edit to choose what they loved.</string>
+    <string name="soul_memories">Memories</string>
+    <string name="soul_memory_hint">Tell something about them…</string>
+    <string name="soul_memory_add">Keep this memory</string>
+    <string name="soul_memories_none">No memories told yet. The small ones count most: a smell, a saying, a habit.</string>
+    <string name="soul_delete">Take down from the altar</string>
+    <string name="soul_delete_text">Their photo, offerings and memories will be removed from Calavera.</string>
+    <string name="soul_delete_do">Take down</string>
+    <string name="memory_delete">Delete this memory?</string>
+
+    <string name="soul_new">Someone for the altar</string>
+    <string name="soul_edit">Edit</string>
+    <string name="soul_name">Name</string>
+    <string name="soul_name_hint">Nana Rosa</string>
+    <string name="soul_relation">Who they were to you</string>
+    <string name="soul_relation_hint">my grandmother</string>
+    <string name="soul_born">Born</string>
+    <string name="soul_died">Died</string>
+    <string name="soul_year_hint">1931</string>
+    <string name="soul_pet">A pet</string>
+    <string name="soul_photo">Choose a photo</string>
+    <string name="soul_photo_change">Change the photo</string>
+    <string name="soul_photo_remove">Remove the photo</string>
+    <string name="soul_loved">What did they love?</string>
+
+    <string name="off_bread">Pan de muerto</string>
+    <string name="off_coffee">Coffee</string>
+    <string name="off_fruit">Fruit</string>
+    <string name="off_sugar_skull">Sugar skull</string>
+    <string name="off_chocolate">Chocolate</string>
+    <string name="off_tequila">A drink</string>
+    <string name="off_book">Books</string>
+    <string name="off_music">Music</string>
+    <string name="off_cigar">A cigar</string>
+    <string name="off_toy">Toys</string>
+    <string name="off_sweets">Sweets</string>
+    <string name="off_water">Water</string>
+
+    <!-- Fiesta -->
+    <string name="fiesta_title">Fiesta</string>
+    <string name="fiesta_sub">Ways to make friends with the end. A few minutes each.</string>
+    <string name="p_loteria">Lotería of fears</string>
+    <string name="p_loteria_desc">A card a day. Each fear, looked at up close, shrinks.</string>
+    <string name="p_calaverita">Calaveritas</string>
+    <string name="p_calaverita_desc">A merry verse about your own death. A real Mexican tradition.</string>
+    <string name="p_picado">Papel picado</string>
+    <string name="p_picado_desc">Fold, cut, unfold. It flutters for a week, then the wind takes it.</string>
+    <string name="p_camino">Marigold road</string>
+    <string name="p_camino_desc">Who and what will carry a trace of you.</string>
+    <string name="p_check">Fear thermometer</string>
+    <string name="p_check_desc">Once a month: how hot does the fear run?</string>
+    <string name="p_plan">My last fiesta</string>
+    <string name="p_plan_desc">Plan the send-off like a party. Then go and live.</string>
+    <string name="p_pan">Pan de muerto</string>
+    <string name="p_pan_desc">Questions for the table, about life and death, with people you love.</string>
+    <string name="p_viejos">Fiesta of the elders</string>
+    <string name="p_viejos_desc">People who did their best work late. Age as an upgrade.</string>
+    <string name="p_due">due</string>
+
+    <!-- Lotería -->
+    <string name="lot_title">Lotería of fears</string>
+    <string name="lot_intro">Mexican lotería is played with picture cards: El Gallo, La Muerte, El Valiente. This deck holds the fears people have about dying and growing old. One card a day. Turn it over and look the fear in the eye.</string>
+    <string name="lot_draw">Draw today\'s card</string>
+    <string name="lot_tap">Tap the card to turn it over</string>
+    <string name="lot_says">Catrina says</string>
+    <string name="lot_try">Try this</string>
+    <string name="lot_did">I tried it</string>
+    <string name="lot_did_done">Tried. That\'s how a fear gets smaller.</string>
+    <string name="lot_tomorrow">The next card comes tomorrow.</string>
+    <string name="lot_deck">Your deck</string>
+    <string name="lot_count">%1$d of %2$d cards</string>
+    <string name="lot_back">Lotería\ndel miedo</string>
+
+    <!-- Calaveritas -->
+    <string name="cal_title">Calaveritas</string>
+    <string name="cal_intro">A calaverita literaria is a short, funny poem in which La Catrina comes to fetch someone. In Mexico they are written about friends, teachers and presidents every November. Write one about yourself: laughing at the end takes away some of its power.</string>
+    <string name="cal_new">Write a calaverita</string>
+    <string name="cal_empty">No verses yet. Start from one of Catrina\'s examples if the first line won\'t come.</string>
+    <string name="cal_hint">La Flaca came for me one day…</string>
+    <string name="cal_examples">Start from an example</string>
+    <string name="cal_edit_title">Your calaverita</string>
+    <string name="cal_delete">Delete this verse?</string>
+    <string name="cal_card_by">a calaverita by %s</string>
+    <string name="cal_card_anon">a calaverita</string>
+    <string name="cal_tips">Rhyme if you can, but funny beats perfect. Who comes for you, what are you busy with, and how do you talk your way out?</string>
+
+    <!-- Papel picado -->
+    <string name="pic_title">Papel picado</string>
+    <string name="pic_folded">The paper is folded. Draw with your finger to cut it.</string>
+    <string name="pic_half">In half</string>
+    <string name="pic_quarter">In four</string>
+    <string name="pic_color">Tissue</string>
+    <string name="pic_unfold">Unfold</string>
+    <string name="pic_refold">Fold again</string>
+    <string name="pic_clear">Start over</string>
+    <string name="pic_undo">Undo</string>
+    <string name="pic_hang">Hang it on the garland</string>
+    <string name="pic_hung">It\'s hanging. It will flutter for a week, then the wind takes it, like everything.</string>
+    <string name="pic_count">%1$d cut so far · %2$d on the garland</string>
+    <string name="pic_why">Papel picado hangs over every fiesta and every altar. It is meant to tear and fade: beautiful because it doesn\'t last.</string>
+
+    <!-- Marigold road -->
+    <string name="cam_title">Marigold road</string>
+    <string name="cam_intro">The psychiatrist Irvin Yalom called it rippling: we go on in the people we have touched, often without knowing. Cempasúchil petals light the souls\' way home. Each marigold here is someone or something that carries a trace of you.</string>
+    <string name="cam_who">Who or what</string>
+    <string name="cam_who_hint">My niece Lucía</string>
+    <string name="cam_what">How you touched it</string>
+    <string name="cam_what_hint">taught her to ride a bike</string>
+    <string name="cam_add">Plant a marigold</string>
+    <string name="cam_empty">No marigolds yet. Think small: a recipe you passed on, a tree you planted, a friend you talked out of a bad idea.</string>
+    <string name="cam_delete">Pull up this marigold?</string>
+    <plurals name="cam_count">
+        <item quantity="one">%d marigold on your road</item>
+        <item quantity="other">%d marigolds on your road</item>
+    </plurals>
+
+    <!-- Fear thermometer -->
+    <string name="chk_title">Fear thermometer</string>
+    <string name="chk_intro">Eight statements. Say how true each is for you right now. Once a month is enough: the point is to watch the line go down.</string>
+    <string name="chk_save">Take the reading</string>
+    <string name="chk_result">%d°</string>
+    <string name="chk_cool">Cool. Death is a fact you can look at without flinching. Keep visiting.</string>
+    <string name="chk_warm">Warm. The fear is there but it doesn\'t run the house. The lotería cards work best now.</string>
+    <string name="chk_hot">Hot. The fear is loud. Go gently: a card a day, a candle, a verse. And talk to someone if it weighs on your days.</string>
+    <string name="chk_history">Your readings</string>
+    <plurals name="chk_next">
+        <item quantity="one">Next reading in %d day</item>
+        <item quantity="other">Next reading in %d days</item>
+    </plurals>
+    <string name="chk_again">Take a new reading</string>
+    <string name="chk_change">%+d° since the first reading</string>
+
+    <string-array name="chk_statements">
+        <item>Thinking about death makes me anxious.</item>
+        <item>I avoid funerals, hospitals or talking about dying.</item>
+        <item>Getting older frightens me.</item>
+        <item>I worry I won\'t have time for what matters.</item>
+        <item>The thought of being forgotten bothers me.</item>
+        <item>I\'m afraid of one day depending on others.</item>
+        <item>I find it hard to think about losing the people I love.</item>
+        <item>Signs of ageing in the mirror make me uneasy.</item>
+    </string-array>
+    <string-array name="chk_scale">
+        <item>Not at all</item>
+        <item>A little</item>
+        <item>Somewhat</item>
+        <item>Mostly</item>
+        <item>Very true</item>
+    </string-array>
+
+    <!-- Last fiesta -->
+    <string name="plan_title">My last fiesta</string>
+    <string name="plan_intro">It sounds strange, but it helps: once the practical things are written down, the mind stops circling them. Plan the send-off the way you\'d plan a party. Nobody sees it but you, unless you share it.</string>
+    <string name="plan_share">Share as text</string>
+    <string name="plan_saved">Saved</string>
+    <string name="plan_papers_warn">Write where things are, never the passwords themselves.</string>
+    <string name="plan_share_title">My last fiesta</string>
+    <string-array name="plan_titles">
+        <item>Music</item>
+        <item>Food and drink</item>
+        <item>Where</item>
+        <item>Who should come</item>
+        <item>Who speaks, and what to say</item>
+        <item>How I\'d like to be remembered</item>
+        <item>My body: burial, cremation, donation</item>
+        <item>If I can\'t speak for myself</item>
+        <item>Where my papers are</item>
+        <item>Who looks after my pets and plants</item>
+        <item>What I want my people to know</item>
+    </string-array>
+    <string-array name="plan_hints">
+        <item>The song to open with, and the one to dance to</item>
+        <item>Tamales, cake, a toast with my favourite drink</item>
+        <item>A garden, the beach, my kitchen</item>
+        <item>And who should feel free not to</item>
+        <item>Keep it short and make them laugh</item>
+        <item>That I always brought dessert</item>
+        <item>And where the ashes might go</item>
+        <item>My wishes about treatment and care</item>
+        <item>Will, insurance, accounts: where to find them</item>
+        <item>Names and phone numbers</item>
+        <item>Thank-yous, apologies, permission to be happy</item>
+    </string-array>
+
+    <!-- Pan de muerto -->
+    <string name="pan_title">Pan de muerto</string>
+    <string name="pan_intro">Put the bread on the table and pass the phone round. Whoever holds it answers, then passes it on.</string>
+    <string name="pan_next">Next question</string>
+    <string name="pan_count">%1$d / %2$d</string>
+    <string-array name="pan_questions">
+        <item>What song should play at your fiesta when you\'re gone?</item>
+        <item>What do you want people to tell your grandchildren about you?</item>
+        <item>What would you do differently if you knew you had five years left?</item>
+        <item>Who taught you something you still use every day?</item>
+        <item>What\'s a family recipe that must never be lost?</item>
+        <item>What are you most proud of that nobody knows about?</item>
+        <item>When did you feel most alive?</item>
+        <item>What would you put on your own ofrenda?</item>
+        <item>What does a good old age look like to you?</item>
+        <item>Which grandparent are you most like, and how?</item>
+        <item>What\'s something you\'ve stopped worrying about as you got older?</item>
+        <item>What would you like your last ordinary day to look like?</item>
+        <item>Is there something you\'ve been meaning to say to someone at this table?</item>
+        <item>What do you think happens after we die? Has that changed over the years?</item>
+        <item>What\'s the funniest thing that happened at a funeral you went to?</item>
+        <item>Who would you invite to dinner if they could come back for one night?</item>
+        <item>What\'s a small thing you do that you hope someone keeps doing?</item>
+        <item>What scares you more: dying, or not having really lived?</item>
+        <item>What would you want written on a tiny stone with room for five words?</item>
+        <item>What is the best advice an older person ever gave you?</item>
+        <item>How do you want to be cared for if you get very ill?</item>
+        <item>Which of your possessions has the best story?</item>
+        <item>What do you hope never changes about this family?</item>
+        <item>What would you like to learn after seventy?</item>
+        <item>When did you last cry from laughing, and why?</item>
+        <item>If your life were a book, what would this chapter be called?</item>
+        <item>What would you like forgiven, and what would you like to forgive?</item>
+        <item>Who in this room would you want to give your speech?</item>
+        <item>What are you looking forward to this year?</item>
+        <item>What\'s one thing you\'d tell your younger self about getting older?</item>
+    </string-array>
+
+    <!-- Elders -->
+    <string name="vie_title">Fiesta of the elders</string>
+    <string name="vie_intro">Ageing isn\'t a slow goodbye. For many people it was when the real work began.</string>
+    <string name="vie_levy">In a study that followed people for over twenty years, the Yale researcher Becca Levy found that those who thought well of getting older lived on average 7.5 years longer than those who dreaded it. How you see ageing is part of how you age.</string>
+    <string name="vie_levy_title">The 7.5 years</string>
+    <string-array name="vie_names">
+        <item>Grandma Moses</item>
+        <item>Giuseppe Verdi</item>
+        <item>Laura Ingalls Wilder</item>
+        <item>Peter Mark Roget</item>
+        <item>Nelson Mandela</item>
+        <item>Fauja Singh</item>
+        <item>Katsushika Hokusai</item>
+        <item>Frank McCourt</item>
+    </string-array>
+    <string-array name="vie_ages">
+        <item>78</item>
+        <item>79</item>
+        <item>65</item>
+        <item>73</item>
+        <item>75</item>
+        <item>89</item>
+        <item>~70</item>
+        <item>66</item>
+    </string-array>
+    <string-array name="vie_texts">
+        <item>Took up painting seriously in her late seventies, when her hands grew too stiff for embroidery. She painted for another twenty years and became one of America\'s best-loved artists.</item>
+        <item>Finished Falstaff, his only great comedy and one of his finest operas, at seventy-nine. His funniest work came last.</item>
+        <item>Published the first of the Little House books at sixty-five, after a life as a farmer\'s wife. The series is still read by children everywhere.</item>
+        <item>Published his Thesaurus at seventy-three, after a career in medicine. He kept revising it until he died at ninety.</item>
+        <item>Became president of South Africa at seventy-five, after twenty-seven years in prison.</item>
+        <item>Took up running in his eighties after losing his wife and son, and ran his first marathon at eighty-nine.</item>
+        <item>Made The Great Wave around seventy, and wrote at seventy-five that nothing he had drawn before seventy was worth noticing.</item>
+        <item>A schoolteacher for thirty years, he published his first book, Angela\'s Ashes, at sixty-six. It won the Pulitzer Prize.</item>
+    </string-array>
+
+    <!-- Onboarding -->
+    <string name="onb1_title">Memento mori,\nwith marigolds</string>
+    <string name="onb1_text">In Mexico, death isn\'t hidden away. On the Day of the Dead people build altars, dress up as skeletons, eat sugar skulls and write funny poems about their own funerals. Calavera brings that spirit to your phone, to make the end a little less frightening and life a little brighter.</string>
+    <string name="onb2_title">Meet your calaca</string>
+    <string name="onb2_text">This is you, without the skin. It sways, dances when tapped, and grows older with you: every birthday Catrina brings a new privilege of years.</string>
+    <string name="onb_name">What should Catrina call you?</string>
+    <string name="onb_name_hint">Your name</string>
+    <string name="onb_birth">Your birthday</string>
+    <string name="onb_birth_hint">For your age and birthday presents. Optional.</string>
+    <string name="onb_birth_pick">Choose a date</string>
+    <string name="onb3_title">Dress up</string>
+    <string name="onb3_text">A hat and a painted face to start. The rest of the wardrobe is paid for in marigold petals, earned by the practices.</string>
+    <string name="onb_start">¡Vámonos!</string>
+    <string name="onb_care">Calavera is for making peace with mortality someday. If thoughts of ending your life are about now, please talk to someone today. There\'s a link to helplines in the settings.</string>
+    <string name="onb_elder_gift">Your years already earned you: %s</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="set_you">You</string>
+    <string name="set_name">Name</string>
+    <string name="set_birth">Birthday</string>
+    <string name="set_birth_none">Not set</string>
+    <string name="set_notify_section">Notices</string>
+    <string name="set_notify">Catrina\'s visit</string>
+    <string name="set_notify_hint">One quiet notice a day with her word. Nothing else.</string>
+    <string name="set_notify_at">Every day at %s</string>
+    <string name="set_language">Language</string>
+    <string name="lang_system">System</string>
+    <string name="set_backup">Backup</string>
+    <string name="set_backup_hint">Everything is kept on this phone only. A backup is one zip with the ofrenda, its photos, your verses and your wardrobe.</string>
+    <string name="backup_export">Export</string>
+    <string name="backup_export_hint">Save Calavera.zip anywhere</string>
+    <string name="backup_import">Import</string>
+    <string name="backup_import_hint">Replace everything with a backup</string>
+    <string name="backup_import_confirm">Everything in Calavera now will be replaced with the backup.</string>
+    <string name="backup_import_do">Replace</string>
+    <string name="backup_done">Backup saved.</string>
+    <string name="backup_failed">Couldn\'t save the backup.</string>
+    <string name="backup_restored">Backup restored.</string>
+    <string name="backup_bad">That file isn\'t a Calavera backup.</string>
+    <string name="set_help">Need to talk to someone?</string>
+    <string name="set_help_hint">If dark thoughts are about now, not someday, talk to a person. Free, confidential helplines in most countries.</string>
+    <string name="help_find">Find a helpline</string>
+    <string name="about">Calavera %s · part of Stillcraft · no ads, no account</string>
+
+    <!-- Care -->
+    <string name="help_title">We hear you</string>
+    <string name="help_text">It sounds like things are heavy right now. Calavera is about making peace with death someday, not hurrying it. Please talk to someone today: a friend, a doctor, or a helpline. You don\'t have to carry this alone.</string>
+    <string name="help_ok">I\'m okay</string>
+
+    <!-- Hints -->
+    <string name="tip_casa">Tap your calaca to make it dance. Petals from the practices buy it new clothes.</string>
+    <string name="tip_ofrenda">Add someone you miss. A candle a day keeps them company.</string>
+    <string name="tip_fiesta">Start with the lotería: one card a day, three minutes.</string>
+    <string name="tip_ok">Got it</string>
+
+    <!-- Notices -->
+    <string name="channel_catrina">Catrina\'s visit</string>
+    <string name="channel_catrina_desc">One word from Catrina a day</string>
+    <string name="notif_title">Catrina dropped by</string>
+    <string name="notif_fiesta">¡Día de Muertos! Light a candle on your ofrenda tonight.</string>
+    <string name="notif_birthday">¡Feliz cumpleaños! Catrina left you a present.</string>
+
+    <!-- Lotería deck: the Spanish names are the cards\' own. -->
+    <string-array name="fear_cards" translatable="false">
+        <item>El Olvido</item>
+        <item>La Nada</item>
+        <item>El Dolor</item>
+        <item>El Reloj</item>
+        <item>La Mano</item>
+        <item>El Espejo</item>
+        <item>La Despedida</item>
+        <item>El Pendiente</item>
+        <item>La Soledad</item>
+        <item>El Juicio</item>
+        <item>La Puerta</item>
+        <item>El Cuerpo</item>
+    </string-array>
+    <string-array name="fear_names">
+        <item>Being forgotten</item>
+        <item>Nothingness</item>
+        <item>Pain</item>
+        <item>Running out of time</item>
+        <item>Depending on others</item>
+        <item>The face in the mirror</item>
+        <item>Losing the ones you love</item>
+        <item>Unfinished business</item>
+        <item>Dying alone</item>
+        <item>A wasted life</item>
+        <item>The unknown</item>
+        <item>The body giving out</item>
+    </string-array>
+    <string-array name="fear_reflections">
+        <item>Ay, mi vida, everyone gets forgotten eventually, even pharaohs. But look closer: you remember your great-grandmother\'s soup without remembering her name. Who we are travels in what we did, not in the name on the stone. You\'re being remembered right now, in a hundred small ways you can\'t see.</item>
+        <item>You worry about the nothing after. Tell me, did the billions of years before you were born trouble you? Epicurus said it well: where death is, I am not; where I am, death is not. Nothingness can\'t hurt anyone, because there\'s no one there to hurt. What frightens you is losing this, so love it while you have it.</item>
+        <item>Pain is a fair worry, and an honest one. But medicine for the end has grown wise: palliative care exists so that the last days can be calm. Fear of pain is often worse than pain itself, because it lasts all your life instead of a few days. Know your options, write down your wishes, and put the fear down.</item>
+        <item>Nobody gets enough time, querido. Kings and beggars all left with things undone. The trick isn\'t more time; it\'s noticing the time you have. Four thousand weeks, give or take. How many of them did you actually look at?</item>
+        <item>You fear needing help one day. But you needed help to be born, to eat, to walk, and nobody thought less of you. Being cared for is part of life\'s circle, not a failure at its end. Practise receiving now: let someone help you this week and say only gracias.</item>
+        <item>Wrinkles, grey hair, a softer jaw. That face is a map of every laugh and every squint into the sun. Nobody looks at an old oak and thinks it failed to stay a sapling. And look at me: no face at all, and I\'m the most elegant woman at every party.</item>
+        <item>This is the fear that comes from love, and so it\'s the most honourable. You will lose people, and they will lose you. That\'s why the ofrenda exists: love doesn\'t stop at the grave, it just changes address. Say the things now, so later there are only good memories to set on the altar.</item>
+        <item>Everyone leaves something half done: a book, a garden, a quarrel. That\'s not failure, that\'s proof you were still living. Pick one thing that really matters and finish it. Forgive yourself the rest.</item>
+        <item>Dying alone frightens many. But consider: most fear isn\'t about the last hour, it\'s about feeling unloved. You can tend to that today. Call someone. Write a letter. The ones who die surrounded are the ones who spent years gathering people, one small kindness at a time.</item>
+        <item>Did I live right? Everyone asks at the end. Nurses who sit with the dying hear the same regrets: I wish I\'d lived true to myself, worked less, kept in touch with friends, let myself be happier. The good news is that you\'re not at the end. You can still change the answers.</item>
+        <item>What\'s behind the door? Nobody really knows, not the priests, not the scientists, not even me, and I\'m the one holding it open. Some find peace in faith, some in the thought of returning to the stars. The unknown is also where every good surprise of your life came from.</item>
+        <item>The body is a borrowed house, and one day the landlord comes back. It creaks, it leaks, the stairs get steep. But it carried you to every dance and every embrace. Thank it instead of blaming it. Bones like mine are what\'s left, and look how well they dance.</item>
+    </string-array>
+    <string-array name="fear_exercises">
+        <item>Write down three things you learned from someone who is gone. Notice: they live on in you.</item>
+        <item>Lie down for two minutes and think of the night sky before you were born. Calm, wasn\'t it? Then open your eyes and look at something beautiful.</item>
+        <item>Find out, in two minutes of reading, what palliative care offers where you live. Knowing beats imagining.</item>
+        <item>Count how many weeks you\'ve lived (years × 52). Then choose one thing to do this week that you\'ll be glad of.</item>
+        <item>Let someone help you today, with anything at all, and answer only: gracias.</item>
+        <item>Look in the mirror for one minute and find three things time gave you, not took.</item>
+        <item>Send one message today to someone you love, saying exactly why.</item>
+        <item>Write down the one unfinished thing that matters most. Then write the next tiny step and do it today.</item>
+        <item>Call someone you haven\'t spoken to in a while. Just to hear how they are.</item>
+        <item>Finish this sentence three times: if I had a year left, I would…</item>
+        <item>Recall a time when something unknown turned out wonderfully. Write it down in one line.</item>
+        <item>Before sleep, thank your body for one thing it did today. Out loud, if you dare.</item>
+    </string-array>
+
+    <!-- Catrina\'s word and errand for each day. -->
+    <string-array name="catrina_words">
+        <item>Death is not the opposite of life. It\'s the frame that makes the picture.</item>
+        <item>Everyone you\'ve ever admired was going to die too. It didn\'t stop them.</item>
+        <item>Memento mori isn\'t a threat, cariño. It\'s a reminder to eat dessert.</item>
+        <item>An old tree isn\'t a failed young one.</item>
+        <item>The dead want two things from you: to be remembered, and for you to enjoy yourself.</item>
+        <item>Every day you\'re the oldest you\'ve ever been and the youngest you\'ll ever be.</item>
+        <item>Fear of death is mostly fear of not having lived. Fix that part.</item>
+        <item>I come for everyone. That\'s the most democratic thing in the world.</item>
+        <item>The Stoics said: practise letting go of small things, and the big one will be easier.</item>
+        <item>A wrinkle is where a smile has been.</item>
+        <item>Nobody on their last day wished they\'d answered more emails.</item>
+        <item>The petals fall, the flower doesn\'t mind. It was busy being a flower.</item>
+        <item>You will die, yes. But not today, so what are you doing with today?</item>
+        <item>Ageing is a privilege denied to many. Wear it like a good hat.</item>
+        <item>Grief is love with nowhere to go. Give it somewhere: a candle, a story, a recipe.</item>
+        <item>The skeleton is the only outfit that suits everyone.</item>
+        <item>Worrying about the end steals the middle.</item>
+        <item>Plant a tree whose shade you will never sit in. That\'s how the old outwit me.</item>
+        <item>Laugh at me. I don\'t mind. Laughter is how people get brave.</item>
+        <item>In Mexico they say you die three times: when the heart stops, when you\'re buried, and when nobody remembers you. Work on the third.</item>
+        <item>Slow down. You\'re not late for anything except your own life.</item>
+        <item>Your bones have danced with you since before you could walk. Be nice to them.</item>
+        <item>The best way to prepare for death is to love life well. Lucky you: that\'s also the best way to live.</item>
+        <item>Nothing lasts, and that\'s exactly why it\'s precious.</item>
+        <item>You are made of atoms forged in stars. Death just returns the loan.</item>
+        <item>Elders aren\'t people who ran out of future. They\'re people who collected more past.</item>
+        <item>Say the kind thing now. The funeral is too late for it.</item>
+        <item>The candle doesn\'t mourn that it burns. It just gives light.</item>
+        <item>You can\'t add days to your life, but you can add life to your days.</item>
+        <item>Hasta la muerte, todo es vida. Until death, everything is life.</item>
+    </string-array>
+    <string-array name="catrina_errands">
+        <item>Take one photo today of something you\'ll miss when you\'re old.</item>
+        <item>Eat something slowly, paying full attention, as if it were your last time.</item>
+        <item>Tell someone older than you one thing you admire about them.</item>
+        <item>Look at the sky for one full minute.</item>
+        <item>Ask an old person a question about their youth, and listen to the whole answer.</item>
+        <item>Do one thing today that your eighty-year-old self would thank you for.</item>
+        <item>Put on music you loved at sixteen and dance to one song.</item>
+        <item>Throw away or give away one thing you\'ve been keeping "just in case".</item>
+        <item>Write a thank-you note to someone. You don\'t have to send it.</item>
+        <item>Walk somewhere without your phone for fifteen minutes.</item>
+        <item>Notice three things today that are beautiful because they won\'t last.</item>
+        <item>Cook or bake something from a family recipe.</item>
+        <item>Call a grandparent, a parent or an old friend. Just to talk.</item>
+        <item>Say "I don\'t know" out loud at least once today, and enjoy it.</item>
+        <item>Forgive one small thing: someone else\'s, or your own.</item>
+        <item>Put a flower or a candle somewhere you\'ll see it this evening.</item>
+        <item>Go to bed fifteen minutes earlier. Bones need their rest.</item>
+        <item>Tell a story about someone who is gone, to someone who never met them.</item>
+        <item>Look in the mirror and smile at the person getting older there.</item>
+        <item>Laugh at something on purpose: a film, a joke, yourself.</item>
+        <item>Spend ten minutes doing nothing at all. Practise being still.</item>
+        <item>Stretch for five minutes and thank each joint by name.</item>
+        <item>Hug someone a few seconds longer than usual.</item>
+        <item>Write down one thing you want to learn when you\'re old.</item>
+        <item>Step outside tonight and find the brightest star.</item>
+        <item>Ask someone how they want to be remembered. Then answer it yourself.</item>
+        <item>Send a message to someone you\'ve lost touch with.</item>
+        <item>Light a candle and sit with it for two minutes.</item>
+        <item>Do one brave little thing you\'ve been putting off.</item>
+        <item>Finish the day by naming three good things it held.</item>
+    </string-array>
+
+    <!-- Examples for calaveritas: {name} is replaced with the person\'s name. -->
+    <string-array name="cal_examples">
+        <item>La Flaca came for {name}, late,\nand found them busy with a plate.\n\"Sit down,\" said {name}, \"have a bite!\"\nNow Death drops round on Friday night.</item>
+        <item>Here lies {name}, who was sure\nthey\'d find the time to clean the floor.\nThey never did. The dust remains.\nThey danced instead. No one complains.</item>
+        <item>Death knocked on {name}\'s door at three.\n\"Not now,\" said {name}, \"I\'m making tea.\"\nShe waited. Tea turned into lunch.\nNow Death and {name} have Sunday brunch.</item>
+        <item>When Catrina called for {name} at last,\nshe asked, \"Your life, did it go fast?\"\n\"Too fast,\" said {name}, \"but what a ride!\nOne more dance, and then we\'ll glide.\"</item>
+    </string-array>
+</resources>
