@@ -44,6 +44,7 @@ import app.calavera.ui.Home
 import app.calavera.ui.Language
 import app.calavera.ui.T
 import app.calavera.ui.components.Chip
+import app.calavera.ui.components.CommunityLinks
 import app.calavera.ui.components.ConfirmDialog
 import app.calavera.ui.components.DateDialog
 import app.calavera.ui.components.InfoRow
@@ -127,6 +128,8 @@ fun SettingsScreen(home: Home, go: Go) {
                 Spacer(Modifier.height(10.dp))
                 SoftButton(stringResource(R.string.help_find), { Care.openHelplines(context) }, Modifier.fillMaxWidth(), color = U.c.fuchsia, soft = U.c.fuchsiaSoft, icon = Icons.Rounded.Favorite)
             }
+
+            CommunityLinks()
 
             Spacer(Modifier.height(24.dp))
             Text(

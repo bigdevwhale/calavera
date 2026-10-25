@@ -555,4 +555,15 @@
         <item>Death knocked on {name}\'s door at three.\n\"Not now,\" said {name}, \"I\'m making tea.\"\nShe waited. Tea turned into lunch.\nNow Death and {name} have Sunday brunch.</item>
         <item>When Catrina called for {name} at last,\nshe asked, \"Your life, did it go fast?\"\n\"Too fast,\" said {name}, \"but what a ride!\nOne more dance, and then we\'ll glide.\"</item>
     </string-array>
+
+    <string name="community">Community</string>
+    <string name="community_hint">The app is made together with the people who use it. It all goes through the StillCraft bot on Telegram.</string>
+    <string name="community_bug">Report a bug</string>
+    <string name="community_bug_hint">what broke and how to repeat it</string>
+    <string name="community_idea">Suggest an idea</string>
+    <string name="community_idea_hint">a feature, an outfit, a fear card</string>
+    <string name="community_follow">Follow updates</string>
+    <string name="community_follow_hint">the bot writes when a version is out</string>
+    <string name="community_chat">StillCraft chat</string>
+    <string name="community_chat_hint">all the apps and people</string>
 </resources>
